@@ -1,0 +1,75 @@
+
+
+body{
+  padding: 0px;
+  margin: 0px;
+    }
+
+  .header{
+    width: auto;
+    height: 50px;
+    display: flex;     
+  }
+  .logo{
+    background-color: rgb(50, 185, 61);
+    width: 10%;
+    color: azure;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav{
+    background-color: rgb(7, 19, 7);
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+  }
+
+  a{
+      text-decoration: none;
+      padding: 70px;
+      color: azure;
+  }
+  a:hover{color: rgb(239, 250, 176);}
+  main{
+    display: flex;
+    align-items: stretch;
+    width: auto;
+  }
+  .leftpanels{
+    width: 75%;
+    height: auto;
+    
+  }
+ .leftPanel1{
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+ } 
+ .leftPanel2{
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  border: 1px solid black;
+
+ } 
+ .leftPanel3{
+  padding: 5px;
+  border: 1px solid black;
+  margin-left: 15px;
+  margin-bottom: 15px;
+ } 
+ .rightHandPanel{
+  border: 1px solid black;
+  width: 25%;
+  margin: 15px;
+  text-align: justify;
+  padding: 5px;
+  
+}
+ 
